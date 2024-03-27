@@ -1,4 +1,4 @@
-# 112-2物件導向程式設計第一次程式
+# 112-2物件導向程式設計 第一次程式
 
 41075901h_彭昶得
 
@@ -8,7 +8,15 @@
 
 - 編譯器 ： g++
 - C++版本 ： C++14
-- 編譯指令 ： g++ <fileName>.cpp -std=c++14 -Wall -o main
+- 編譯指令 ： g++ fileName.cpp -std=c++14 -Wall -o main
+
+### 檔案結構
+
+![image-20240327140459767](/Users/pengchangde/Desktop/CodeSpace/BasicC/OOP/report.assets/image-20240327140459767.png)
+
+<div style="page-break-after: always;"></div>
+
+### Makefile
 
 ```makefile
 CXX = g++
@@ -565,11 +573,11 @@ void displayAnswer(const int16_t &hour, const int16_t &min, char Am_or_Pm)
 
 - 玩家贏：
 
-![image-20240327140258424](/Users/pengchangde/Desktop/CodeSpace/BasicC/OOP/report.assets/image-20240327140258424.png)
+<img src="/Users/pengchangde/Desktop/CodeSpace/BasicC/OOP/report.assets/image-20240327140258424.png" alt="image-20240327140258424" style="zoom:67%;" />
 
 - 電腦贏：
 
-![image-20240327140142322](/Users/pengchangde/Desktop/CodeSpace/BasicC/OOP/report.assets/image-20240327140142322.png)
+<img src="/Users/pengchangde/Desktop/CodeSpace/BasicC/OOP/report.assets/image-20240327140142322.png" alt="image-20240327140142322" style="zoom:67%;" />
 
 <div style="page-break-after: always;"></div>
 
@@ -654,5 +662,3 @@ int main()
     return 0;
 }
 ```
-
-<div style="page-break-after: always;"></div>
