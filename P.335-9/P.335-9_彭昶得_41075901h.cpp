@@ -4,14 +4,22 @@ Author : chang de (41075901h@gapps.ntnu.edu.tw)
 FileName : P.335-9_彭昶得_41075901h.cpp
 -------------------------------------------------------------------------------
 Description of the problem :
-
-
+Write a program to play a simple number-guessing game against a computer opponent. The rules of the game are as follows:
+1. The computer randomly selects a secret number between 0 and 100.
+2. The user enters a number between 0 and 100 as their secret number.
+3. The computer will then attempt to guess the user's number. This guessed number should be printed to the screen and if
+it is less than the user's secret number, the program should print, "The guess is too low"; if the guess is greater than
+the user's secret number, it should print "The guess is too high".
+4. The user will then attempt to guess the computer's secret number. This guessed number should be printed to the screen
+and if it is less than the computer's secret number, the program should print, "The guess is too low"; if the guess is
+above the user's secret number, it should print "The guess is too high"
+5. Repeat steps 3 and 4 until either the computer or the user correctly guesses the other's secret number.
 ================================================================================
 */
 
-#include <string>
-#include <random>
 #include <iostream>
+#include <random>
+#include <string>
 using namespace std;
 
 int main()
